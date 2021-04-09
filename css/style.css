@@ -1,15 +1,27 @@
+a{
+    color: #837256;
+    text-decoration: none;
+    transition: all .5s;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
 article{
     padding: 1em;
 }
 body{
     background: #d4b98b;
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 h1{
     font-family: 'Kaushan Script', cursive;
     font-size: 5em;
     padding: 1em 0 .5em;
+}
+p{
+    padding-bottom: 1em;
 }
 #contenido{
     margin: auto;
@@ -19,4 +31,7 @@ h1{
 #logo{
     height: 300px;
     width: 300px;
+}
+.fab{
+    font-size: 1em;
 }
